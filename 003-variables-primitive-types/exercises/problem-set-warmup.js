@@ -13,3 +13,15 @@
 
    HINT2: Make sure your terminal is "looking at" the correct folder where your code is
 */
+
+const str = "lol";
+
+const niceNumber = 69;
+
+const truee = true;
+
+const empty = null;
+
+const notDef = undefined;
+
+console.log(str, niceNumber, truee, empty, notDef);
