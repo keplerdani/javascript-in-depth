@@ -6,3 +6,8 @@
 
     *HINT* - MDN Web Docs are a good resource
 */
+console.log(typeof "string");
+console.log(typeof 42);
+console.log(typeof false);
+console.log(typeof null);
+console.log(typeof undefined);
