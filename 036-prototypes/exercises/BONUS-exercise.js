@@ -18,3 +18,16 @@
     5. Log out the prototype of cleo and taylor. What is
        happening? What about just taylor?
 */
+
+Object.prototype.speak = () => {
+  console.log("lol i'm comming from Object.prototype");
+};
+
+const animal = {
+  type: "Monkey",
+};
+
+console.log(animal.__proto__);
+console.log(Object.__proto__);
+console.log(Object);
+animal.speak()
