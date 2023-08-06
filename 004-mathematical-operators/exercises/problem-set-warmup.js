@@ -4,3 +4,11 @@
     2. Use let to create a variable that points to a Number
        - Then add another Number to this same variable and print it out
 */
+
+let foo = "asd";
+foo = foo + "noob";
+console.log(foo);
+
+let num = 69;
+num = num + 420;
+console.log(num);
